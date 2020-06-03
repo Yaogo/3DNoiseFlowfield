@@ -188,7 +188,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515139742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 25.08, y: 23.6, z: 14.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -296,12 +296,14 @@ MonoBehaviour:
   _cellSize: 5
   _increment: 6.38
   _offset: {x: 186.85, y: 37.35, z: 68.27}
-  offsetSpeed: {x: 0, y: 0, z: 0}
+  offsetSpeed: {x: 0.69, y: 0.84, z: 0.63}
   _particlePrefab: {fileID: 5011020804878258793, guid: 5b2709b8e8154ab4a99f6f97c7affc8d,
     type: 3}
-  _amountOfParticles: 1000
+  _amountOfParticles: 2000
   _particles: []
   _particleScale: 1
+  _particleMoveSpeed: 10
+  _particleRotateSpeed: 100
   _spawnRadius: 2
 --- !u!4 &1983544534
 Transform:

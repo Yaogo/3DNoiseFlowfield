@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class FlowFieldParticle : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float _moveSpeed;
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position += transform.forward * _moveSpeed * Time.deltaTime;
+    }
+
+    public void ApplyRotation(Vector3 rotation, float rotateSpeed)
+    {
+        Quaternion targetRotation = Quaternion.LookRotation(rotation.normalized);
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotateSpeed * Time.deltaTime);
     }
 }
