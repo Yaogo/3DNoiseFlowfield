@@ -3405,3 +3405,5 @@ crashlytics-build.properties
 3DNoiseFlowfield/Library/metadata/01/018e19d6c1b36224b85b5c0ddd6a895e.info
 3DNoiseFlowfield/Library/metadata/01/018e19d6c1b36224b85b5c0ddd6a895e
 3DNoiseFlowfield/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+3DNoiseFlowfield/Assets/Scripts/FastNoise.cs.meta
+3DNoiseFlowfield/Assets/Scripts/FastNoise.cs
